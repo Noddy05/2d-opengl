@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "6vCMoUaXdu+G7zFCG1HTGl4HJ1dEI0+IVOmmc8wKHwR4/R1M+s2fYh2B7AUDcW7HhrMusbcAh8pITf6wVzy5UA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\noah0\\source\\repos\\2D OpenGL\\2D OpenGL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\noah0\\.nuget\\packages\\opentk\\4.7.7\\opentk.4.7.7.nupkg.sha512",
+    "C:\\Users\\noah0\\.nuget\\packages\\opentk.compute\\4.7.7\\opentk.compute.4.7.7.nupkg.sha512",
+    "C:\\Users\\noah0\\.nuget\\packages\\opentk.core\\4.7.7\\opentk.core.4.7.7.nupkg.sha512",
+    "C:\\Users\\noah0\\.nuget\\packages\\opentk.graphics\\4.7.7\\opentk.graphics.4.7.7.nupkg.sha512",
+    "C:\\Users\\noah0\\.nuget\\packages\\opentk.input\\4.7.7\\opentk.input.4.7.7.nupkg.sha512",
+    "C:\\Users\\noah0\\.nuget\\packages\\opentk.mathematics\\4.7.7\\opentk.mathematics.4.7.7.nupkg.sha512",
+    "C:\\Users\\noah0\\.nuget\\packages\\opentk.openal\\4.7.7\\opentk.openal.4.7.7.nupkg.sha512",
+    "C:\\Users\\noah0\\.nuget\\packages\\opentk.redist.glfw\\3.3.8.30\\opentk.redist.glfw.3.3.8.30.nupkg.sha512",
+    "C:\\Users\\noah0\\.nuget\\packages\\opentk.windowing.common\\4.7.7\\opentk.windowing.common.4.7.7.nupkg.sha512",
+    "C:\\Users\\noah0\\.nuget\\packages\\opentk.windowing.desktop\\4.7.7\\opentk.windowing.desktop.4.7.7.nupkg.sha512",
+    "C:\\Users\\noah0\\.nuget\\packages\\opentk.windowing.graphicslibraryframework\\4.7.7\\opentk.windowing.graphicslibraryframework.4.7.7.nupkg.sha512",
+    "C:\\Users\\noah0\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
