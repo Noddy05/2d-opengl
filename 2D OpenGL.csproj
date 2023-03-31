@@ -10,4 +10,8 @@
     <PackageReference Include="OpenTK" Version="4.7.7" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="CustomShaders\" />
+  </ItemGroup>
+
 </Project>

@@ -47,8 +47,8 @@ namespace GameEngine
             GL.Clear(ClearBufferMask.ColorBufferBit);
 
             //Draw.Rect(MousePosition.X, Size.Y - MousePosition.Y, 50, 50);
-            int customRectShader = Shader.GenerateShader(@"C:\Users\noah0\source\repos\2D OpenGL\Shapes\rect_vert_shader.glsl",
-                @"C:\Users\noah0\source\repos\2D OpenGL\Shapes\rect_frag_shader.glsl");
+            int customRectShader = Shader.GenerateShader(Program.LOCALPATH + @"Shapes\rect_vert_shader.glsl",
+                Program.LOCALPATH + @"Shapes\rect_frag_shader.glsl");
             Draw.ShaderRect(0, 0, Size.X, Size.Y, customRectShader);
             Draw.Circle(MousePosition.X, Size.Y - MousePosition.Y, 50, new Color4(1.0f, 1.0f, 1.0f, 1.0f));
 
