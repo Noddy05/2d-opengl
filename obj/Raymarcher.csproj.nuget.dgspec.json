@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\noah0\\source\\repos\\raymarcher\\2D OpenGL.csproj": {}
+    "C:\\Users\\noah0\\source\\repos\\raymarcher\\Raymarcher.csproj": {}
   },
   "projects": {
-    "C:\\Users\\noah0\\source\\repos\\raymarcher\\2D OpenGL.csproj": {
+    "C:\\Users\\noah0\\source\\repos\\raymarcher\\Raymarcher.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\noah0\\source\\repos\\raymarcher\\2D OpenGL.csproj",
-        "projectName": "2D OpenGL",
-        "projectPath": "C:\\Users\\noah0\\source\\repos\\raymarcher\\2D OpenGL.csproj",
+        "projectUniqueName": "C:\\Users\\noah0\\source\\repos\\raymarcher\\Raymarcher.csproj",
+        "projectName": "Raymarcher",
+        "projectPath": "C:\\Users\\noah0\\source\\repos\\raymarcher\\Raymarcher.csproj",
         "packagesPath": "C:\\Users\\noah0\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\noah0\\source\\repos\\raymarcher\\obj\\",
         "projectStyle": "PackageReference",

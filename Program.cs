@@ -6,6 +6,7 @@ namespace GameEngine
     {
         private static Window window = new Window();
         public static Window GetWindow() => window;
+        public const string LOCALPATH = "../../../";
 
         static void Main(string[] args)
         {

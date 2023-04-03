@@ -12,6 +12,7 @@ namespace GameEngine
     class Window : GameWindow
     {
         const int frameRate = 120;
+        public Camera camera;
 
         public Window()
                : base(GameWindowSettings.Default, new NativeWindowSettings
@@ -29,6 +30,8 @@ namespace GameEngine
         {
             GL.ClearColor(0.1f, 0.1f, 0.1f, 1.0f);
             Draw.OnLoad();
+            camera = new Camera();
+            CursorState = CursorState.Grabbed;
 
             IsVisible = true;
 
@@ -46,11 +49,9 @@ namespace GameEngine
 
             GL.Clear(ClearBufferMask.ColorBufferBit);
 
-            //Draw.Rect(MousePosition.X, Size.Y - MousePosition.Y, 50, 50);
-            int customRectShader = Shader.GenerateShader(@"C:\Users\noah0\source\repos\2D OpenGL\Shapes\rect_vert_shader.glsl",
-                @"C:\Users\noah0\source\repos\2D OpenGL\Shapes\rect_frag_shader.glsl");
-            Draw.ShaderRect(0, 0, Size.X, Size.Y, customRectShader);
-            Draw.Circle(MousePosition.X, Size.Y - MousePosition.Y, 50, new Color4(1.0f, 1.0f, 1.0f, 1.0f));
+            Draw.ShaderRect(0, 0, Size.X, Size.Y, -1);
+            //Draw.Rect(MousePosition.X, Size.Y - MousePosition.Y, 150, 150, new Color4(1f, 0f, 1f, 1f));
+            Draw.Circle(Size.X / 2, Size.Y / 2, 5, new Color4(1.0f, 1.0f, 1.0f, 1.0f));
 
             Context.SwapBuffers();
 
